@@ -23,3 +23,5 @@ erl_crash.dump
 proto_man-*.tar
 
 .elixir_ls/
+
+.vscode/
