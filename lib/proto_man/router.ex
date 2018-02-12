@@ -1,7 +1,6 @@
 defmodule ProtoMan.Router do
   use Plug.Router
-  alias ProtoMan.Androids
-  alias ProtoMan.Messages
+  alias ProtoMan.{Androids, Messages}
   plug :match
   plug :dispatch
 
@@ -12,7 +11,7 @@ defmodule ProtoMan.Router do
                                     version: :'V1', 
                                     hp: %Androids.Android.Health{value: 100})
     resp = Androids.Android.encode(android)
-    
+
     conn
     |> put_resp_header("content-type", "application/octet-stream")
     |> send_resp(200, resp)
