@@ -1,21 +1,5 @@
 # ProtoMan
 
-**TODO: Add description**
+This is a simple demo app for exploring [Protobuf](https://developers.google.com/protocol-buffers/docs/overview) with [exprotobuf](https://github.com/bitwalker/exprotobuf). You can find a blog post describing the process on my [blog](https://chase.pursu.es/protobuf-in-elixir-with-exprotobuf.html).
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `proto_man` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:proto_man, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/proto_man](https://hexdocs.pm/proto_man).
-
+PRs are always welcome.
